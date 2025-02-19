@@ -1,0 +1,46 @@
+{
+    "policies": {
+        "Cookies": {
+            "Behavior": "reject-tracker-and-partition-foreign",
+            "BehaviorPrivateBrowsing": "reject-tracker-and-partition-foreign",
+            "Allow": [
+                "https://amazon.com",
+                "https://amazon.nl",
+                "https://chatgpt.com",
+                "https://controld.com",
+                "https://google.com",
+                "https://ns.nl",
+                "https://web.telegram.org",
+                "https://web.whatsapp.com",
+                "https://www.imdb.com",
+                "https://www.inoreader.com",
+                "https://www.zalando.nl",
+                "https://github.com/"
+            ]
+        },
+        "SanitizeOnShutdown": {
+            "Cache": true,
+            "Cookies": true,
+            "Sessions": true,
+            "History": false,
+            "SiteSettings": false
+        },
+        "PasswordManagerEnabled": false,
+        "OfferToSaveLogins": false,
+        "FirefoxSuggest": {
+            "WebSuggestions": false,
+            "SponsoredSuggestions": false,
+            "ImproveSuggest": false
+        },
+        "DNSOverHTTPS": {
+            "Enabled": false
+        },
+        "DisableFirefoxStudies": true,
+        "DisableTelemetry": true,
+        "DisableFeedbackCommands": true,
+        "DisablePocket": true,
+        "DisableSetDesktopBackground": true,
+        "DontCheckDefaultBrowser": true,
+        "NoDefaultBookmarks": true
+    }
+}
